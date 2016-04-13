@@ -11,7 +11,108 @@
     "publishPath": "file:///Users/Charlotte1/Desktop/Website_Nederlands"
   },
   "pages": {
-    "Charlotte.html": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Mobirise Mobile Website Builder",
+        "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Homepagina'.",
+        "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
+        "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "14px",
+              "color": "#fcfced",
+              "text-align": "center"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "24px",
+              "color": "#fcfced",
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header4-3",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/achtergrond-zwartkopie-1600x736-0.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "CHARLOTTE VANHOUBROECK<br>",
+          "text": "ILLUSTRATIES",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#000000"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__items a": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "12px"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#000000"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
+          "_params": {
+            "color": "#000000",
+            "hamburgerColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": false,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Charlotte.html\">CHARLOTTE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Naar Opdracht.html\">NAAR OPDRACHT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Schetsboeken.html\">SCHETSBOEKEN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Levend model.html\">LEVEND MODEL</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>"
+        }
+      ]
+    },
+    "charlotte.html": {
       "settings": {
         "title": "",
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Charlotte'."
@@ -87,6 +188,24 @@
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_name": "slider",
+          "_styles": {
+            "H1": {
+              "font-size": "20px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#fbfcee"
+            },
+            "P": {
+              "text-align": "left",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "11px",
+              "color": "#fbfcee"
+            },
+            "SPAN": {
+              "font-size": "22px"
+            }
+          },
           "_params": {
             "autoplay": false,
             "slides": [
@@ -138,29 +257,11 @@
             "showBullets": false
           },
           "_anchor": "slider-67",
-          "articleLayout": false,
-          "_styles": {
-            "H1": {
-              "font-size": "20px",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "color": "#fbfcee"
-            },
-            "P": {
-              "text-align": "left",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "11px",
-              "color": "#fbfcee"
-            },
-            "SPAN": {
-              "font-size": "22px"
-            }
-          }
+          "articleLayout": false
         }
       ]
     },
-    "Schetsboeken.html": {
+    "schetsboeken.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Schetsboeken'."
       },
@@ -255,7 +356,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -308,6 +409,18 @@
         },
         {
           "_name": "features1",
+          "_styles": {
+            ".mbr-section__col .mbr-header__text": {
+              "color": "#fbfcee",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".mbr-section__col .mbr-header__text P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "18px"
+            }
+          },
           "_anchor": "features1-68",
           "_params": {
             "bgImageRadio": false,
@@ -430,23 +543,11 @@
           },
           "title6": "HOST ANYWHERE",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_styles": {
-            ".mbr-section__col .mbr-header__text": {
-              "color": "#fbfcee",
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
-            },
-            ".mbr-section__col .mbr-header__text P": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "18px"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
         }
       ]
     },
-    "Contact.html": {
+    "contact.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Contact'."
       },
@@ -523,7 +624,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -576,108 +677,7 @@
         }
       ]
     },
-    "Index.html": {
-      "settings": {
-        "main": true,
-        "title": "Mobirise Mobile Website Builder",
-        "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Homepagina'.",
-        "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
-        "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_inherit": "header1",
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_styles": {
-            "H1": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "14px",
-              "color": "#fcfced",
-              "text-align": "center"
-            },
-            "P": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "24px",
-              "color": "#fcfced",
-              "text-align": "center"
-            }
-          },
-          "_anchor": "header4-3",
-          "_params": {
-            "parallax": false,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/achtergrond-zwartkopie-1600x736-0.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "contentAlign": "center",
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#000000",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false
-          },
-          "title": "CHARLOTTE VANHOUBROECK<br>",
-          "text": "ILLUSTRATIES",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
-        },
-        {
-          "_inherit": "menu",
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#000000"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__items a": {
-              "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
-              "font-size": "12px"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-6",
-          "_params": {
-            "color": "#000000",
-            "hamburgerColor": "#000000",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
-            "logo": false,
-            "showBrand": false,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "images/logo.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Charlotte.html\">CHARLOTTE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Naar Opdracht.html\">NAAR OPDRACHT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Schetsboeken.html\">SCHETSBOEKEN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Levend model.html\">LEVEND MODEL</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>"
-        }
-      ]
-    },
-    "Levend model.html": {
+    "levendmodel.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Levend model'."
       },
@@ -698,7 +698,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -1104,7 +1104,7 @@
         }
       ]
     },
-    "Want ze is het waard.html": {
+    "wantzeishetwaard.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Want ze is het waard'."
       },
@@ -1125,7 +1125,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -1368,7 +1368,7 @@
         }
       ]
     },
-    "Vrouw met de baard.html": {
+    "vrouwmetdebaard.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Vrouw met de baard'."
       },
@@ -1527,7 +1527,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -1612,7 +1612,7 @@
         }
       ]
     },
-    "Chrandesyx.html": {
+    "chrandesyx.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Chrandesyx'."
       },
@@ -1795,7 +1795,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -1848,7 +1848,7 @@
         }
       ]
     },
-    "Dostojevski inspireert.html": {
+    "dostojevskiinspireert.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Dostojevski inspireert'."
       },
@@ -1869,7 +1869,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -1999,7 +1999,7 @@
         }
       ]
     },
-    "Kadare inspireert.html": {
+    "kadareinspireert.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Kadare inspireert'."
       },
@@ -2077,7 +2077,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -2162,7 +2162,7 @@
         }
       ]
     },
-    "Een droom ontleed.html": {
+    "eendroomontleed.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Een droom ontleed'."
       },
@@ -2183,7 +2183,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -2287,7 +2287,7 @@
         }
       ]
     },
-    "Zakschetsboekjes.html": {
+    "zakschetsboekjes.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Zakschetsboekjes'."
       },
@@ -2308,7 +2308,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -2369,7 +2369,7 @@
           "_params": {
             "showCaption": true,
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButton": false,
             "bgImageRadio": true,
             "parallax": false,
@@ -3395,7 +3395,7 @@
         }
       ]
     },
-    "Grote boeken.html": {
+    "groteboeken.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Grote boeken'."
       },
@@ -3416,7 +3416,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -3477,7 +3477,7 @@
           "_params": {
             "showCaption": true,
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButton": false,
             "bgImageRadio": true,
             "parallax": false,
@@ -3667,7 +3667,7 @@
         }
       ]
     },
-    "COPYRIGHT.html": {
+    "copyright.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'COPYRIGHT'."
       },
@@ -3769,7 +3769,7 @@
         }
       ]
     },
-    "Naar opdracht.html": {
+    "naaropdracht.html": {
       "settings": {
         "title": "Naar Opdracht",
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Naar opdracht'."
@@ -3864,7 +3864,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -3917,7 +3917,7 @@
         }
       ]
     },
-    "Faulkner inspireert.html": {
+    "faulknerinspireert.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Faulkner inspireert'."
       },
@@ -3938,7 +3938,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
@@ -4042,7 +4042,7 @@
         }
       ]
     },
-    "Een eigen verhaal.html": {
+    "eeneigenverhaal.html": {
       "settings": {
         "meta_descr": "Publicatie van Charlotte Vanhoubroeck, 2016, auteursrechtelijk beschermd (c): 'Een eigen verhaal'."
       },
@@ -4063,7 +4063,7 @@
               "font-size": "12px"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "ext.menu",
